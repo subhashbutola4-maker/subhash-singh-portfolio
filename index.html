@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Subhash Singh | Senior Video Editor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Schibsted+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0a0a0c;--bg2:#131316;--fg:#ece9e3;--mute:#8b8a86;--line:#26262b;--lime:#c6f24a;--cyan:#3fe0ff;--vio:#8b6cff;box-sizing:border-box;
+--serif:"Instrument Serif","Times New Roman",serif;--sans:"Schibsted Grotesk",system-ui,-apple-system,"Segoe UI",sans-serif;
+padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:calc(72px + env(safe-area-inset-top,0px))}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 16px/1.6 var(--sans);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit;color:inherit}
+a:focus-visible,button:focus-visible{outline:2px solid var(--lime);outline-offset:3px}
+.grain{position:fixed;inset:-50%;pointer-events:none;z-index:60;opacity:.08;mix-blend-mode:overlay;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)'/%3E%3C/svg%3E");animation:g 1s steps(6) infinite}
+@keyframes g{0%,100%{transform:translate(0)}25%{transform:translate(-4%,3%)}50%{transform:translate(3%,-5%)}75%{transform:translate(-5%,-2%)}}
+nav{position:fixed;top:0;left:0;right:0;z-index:40;display:flex;justify-content:space-between;align-items:center;padding:calc(20px + env(safe-area-inset-top,0px)) clamp(18px,3vw,40px) 20px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;mix-blend-mode:difference;color:#fff}
+nav .ls{display:flex;gap:clamp(12px,2.4vw,30px)}nav a{opacity:.75;transition:opacity .2s}nav a:hover{opacity:1}
+section,.hero{padding:clamp(80px,12vw,170px) clamp(18px,3vw,40px)}.wrap{max-width:1500px;margin:0 auto}
+.lab{font:500 12px/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}
+.hero{min-height:100svh;display:grid;grid-template-rows:1fr auto;position:relative;overflow:hidden;padding-top:0;padding-bottom:clamp(22px,3vw,40px)}
+.glow{position:absolute;left:50%;top:42%;width:min(80vw,1000px);aspect-ratio:2;translate:-50% -50%;filter:blur(40px);opacity:.9;
+background:radial-gradient(ellipse at 65% 45%,rgba(198,242,74,.16),transparent 55%),radial-gradient(ellipse at 28% 60%,rgba(139,108,255,.2),transparent 60%),radial-gradient(ellipse at 50% 30%,rgba(63,224,255,.1),transparent 55%);animation:fl 14s ease-in-out infinite alternate}
+@keyframes fl{to{transform:translate(4%,-6%) scale(1.12) rotate(4deg)}}
+.stage{position:relative;z-index:1;align-self:center;padding-top:14vh}
+.hola{font:italic 400 clamp(28px,3.6vw,52px)/1 var(--serif);color:var(--lime);margin-bottom:2vh}.hola u{text-decoration:none}
+h1{font:400 clamp(60px,14vw,230px)/.88 var(--serif);letter-spacing:-.03em;margin:0}
+h1 span{display:block;overflow:hidden}h1 span i{display:block;font-style:normal;transform:translateY(105%);animation:up 1.3s cubic-bezier(.16,1,.3,1) .5s forwards}
+h1 span:nth-child(2) i{animation-delay:.68s;font-style:italic;color:var(--mute)}@keyframes up{to{transform:none}}
+.role{margin-top:3vh;font:600 clamp(13px,1.4vw,18px)/1 var(--sans);letter-spacing:.2em;text-transform:uppercase}
+.hl{font:400 clamp(26px,3.4vw,50px)/1.1 var(--serif);margin:1.2vh 0 0;max-width:20ch}.hl em{color:var(--mute)}
+.base{position:relative;z-index:1;display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap}
+.base .s{max-width:46ch;font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--mute);display:grid;gap:8px}.base .s b{color:var(--fg);font-weight:500}
+.tc{font:500 13px/1 var(--sans);font-variant-numeric:tabular-nums;color:var(--mute);display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+.pill{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:12px 20px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;background:none;cursor:pointer;transition:.25s}
+.pill:hover,.pill[aria-pressed=true]{background:var(--lime);color:#0a0a0c;border-color:var(--lime)}.pri{background:var(--fg);color:var(--bg)}
+.lede{font:400 clamp(30px,5.2vw,78px)/1.06 var(--serif);letter-spacing:-.015em;margin:0;max-width:20ch}.lede em{color:var(--mute)}
+.head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;margin-bottom:clamp(32px,5vw,64px)}
+h2{font:400 clamp(36px,6vw,92px)/1 var(--serif);letter-spacing:-.02em;margin:0}
+.fl{display:flex;gap:8px;overflow-x:auto;max-width:100%;padding-bottom:4px}.fl .pill{white-space:nowrap;padding:9px 15px;font-size:12px}
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:clamp(14px,2vw,28px);align-items:start;grid-auto-flow:dense}
+.card{grid-column:span 6;position:relative;cursor:pointer}.card[data-r="9:16"]{grid-column:span 3}.card[data-r="4:5"],.card[data-r="1:1"]{grid-column:span 4}.card.ft[data-r="16:9"]{grid-column:span 12}.card[hidden]{display:none}
+.fig{overflow:hidden;background:var(--bg2);position:relative;border-radius:2px}.fig img,.fig .ph{width:100%;height:100%;object-fit:cover;display:block;transition:transform .9s cubic-bezier(.16,1,.3,1)}
+.card:hover .fig img,.card:hover .fig .ph{transform:scale(1.06)}
+.ph{display:flex;flex-direction:column;justify-content:flex-end;padding:clamp(12px,2vw,24px);background:radial-gradient(circle at 75% 25%,hsl(var(--h) 75% 50%/.5),transparent 60%),linear-gradient(140deg,#17171b,#0d0d10)}
+.ph b{font:400 clamp(20px,2.6vw,38px)/1 var(--serif)}.ph small{color:var(--mute);letter-spacing:.1em;text-transform:uppercase;font-size:11px;margin-top:8px}
+.meta{display:flex;justify-content:space-between;gap:10px;align-items:baseline;padding-top:12px;flex-wrap:wrap}.meta h3{margin:0;font:400 clamp(18px,1.8vw,26px)/1.1 var(--serif)}
+.tg{display:flex;gap:6px;flex-wrap:wrap}.tg i{font:500 10px/1 var(--sans);letter-spacing:.1em;text-transform:uppercase;border:1px solid var(--line);color:var(--mute);padding:5px 8px;border-radius:99px;font-style:normal;transition:.25s}.card:hover .tg i{border-color:var(--lime);color:var(--lime)}
+.steps{display:grid;grid-template-columns:repeat(5,1fr);gap:0;margin:clamp(36px,5vw,72px) 0;border-top:1px solid var(--line)}
+.step{padding:22px 14px 0 0;position:relative;transition:.3s}.step::before{content:"";position:absolute;top:-4px;left:0;width:7px;height:7px;border-radius:50%;background:var(--lime)}
+.step b{display:block;font:400 clamp(20px,3.4vw,52px)/1 var(--serif);text-transform:uppercase}.step small{color:var(--mute);font-size:12px}.steps:hover .step{opacity:.4}.steps .step:hover{opacity:1;color:var(--lime)}
+.case{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,5vw,96px)}.case p{margin:0;color:var(--mute);font-size:clamp(16px,1.5vw,21px)}
+.lst{list-style:none;margin:0;padding:0;color:var(--mute)}.lst li{padding:11px 0;border-top:1px solid var(--line);position:relative}
+.meta9{font:500 clamp(14px,2vw,26px)/1.4 var(--sans);letter-spacing:.18em;text-transform:uppercase;display:flex;gap:6px 18px;flex-wrap:wrap;margin:clamp(40px,6vw,90px) 0 18px;color:var(--cyan)}
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,5vw,96px)}.duo h3,.blk h3{font:400 clamp(26px,3vw,42px)/1.1 var(--serif);margin:0 0 18px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}.chips span{border:1px solid var(--line);border-radius:99px;padding:8px 14px;font-size:14px;position:relative;transition:.25s}.chips span:hover{border-color:var(--vio)}
+.exp{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,5fr);gap:24px;padding:28px 0;border-top:1px solid var(--line);position:relative}.exp:last-of-type{border-bottom:1px solid var(--line)}
+.exp .y{color:var(--mute);font-size:14px}.exp h3{font:400 clamp(24px,2.8vw,40px)/1.1 var(--serif);margin:0}.exp .r{color:var(--lime);font-size:13px;letter-spacing:.1em;text-transform:uppercase;margin:6px 0 10px}.exp p{margin:0;color:var(--mute);max-width:62ch}
+.aw{display:grid;grid-template-columns:1fr 1fr;gap:24px}.award{border:1px solid var(--line);padding:clamp(22px,3vw,40px);position:relative}.award b{display:block;font:400 clamp(26px,3vw,44px)/1.05 var(--serif);margin-bottom:8px}.award span{color:var(--mute)}
+.mq{overflow:hidden;white-space:nowrap;border-block:1px solid var(--line);padding:18px 0}.mq div{display:inline-block;animation:mq 40s linear infinite;font:400 clamp(26px,4vw,56px)/1 var(--serif)}.mq span{margin-right:.9em;color:var(--mute)}.mq span::after{content:"/";margin-left:.9em;color:var(--lime)}@keyframes mq{to{transform:translateX(-50%)}}
+.ed .mq{white-space:normal}.ed .mq div{animation:none}
+.big{display:inline-block;font:400 clamp(28px,6.6vw,110px)/1 var(--serif);letter-spacing:-.025em;overflow-wrap:anywhere;border-bottom:1px solid var(--line);padding-bottom:.1em;transition:.3s}.big:hover{color:var(--lime);border-color:var(--lime)}
+.ln{display:flex;gap:10px;flex-wrap:wrap;margin-top:36px;align-items:center}.ln small{color:var(--mute);margin-left:-4px}
+footer{padding:28px clamp(18px,3vw,40px);color:var(--mute);font-size:13px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}footer button{background:none;border:0;color:var(--mute);cursor:pointer;text-decoration:underline}
+.rv{opacity:0;transform:translateY(28px);transition:opacity .9s,transform .9s cubic-bezier(.16,1,.3,1)}.rv.in,.noanim .rv{opacity:1;transform:none}.noanim h1 span i{animation:none;transform:none}
+.cu{position:fixed;left:0;top:0;z-index:70;pointer-events:none;width:10px;height:10px;margin:-5px;border-radius:50%;background:var(--lime);display:none;align-items:center;justify-content:center;font:600 10px var(--sans);letter-spacing:.1em;text-transform:uppercase;color:#0a0a0c;transition:width .25s,height .25s,margin .25s}
+.cu[data-s="1"]{width:78px;height:78px;margin:-39px}@media(pointer:fine){.cu{display:flex}.ed .cu{display:none}}
+[contenteditable]{outline:1px dashed rgba(198,242,74,.5);outline-offset:3px;cursor:text;min-width:1ch}
+.ctl{position:absolute;right:0;top:0;display:flex;gap:4px;z-index:5}.chips .ctl,.award .ctl,.exp .ctl{right:-6px;top:-10px}
+.ctl button,.hd{background:var(--lime);color:#0a0a0c;border:0;border-radius:4px;width:24px;height:24px;cursor:pointer;line-height:1;text-align:center;font-size:14px}.hd{cursor:grab;display:grid;place-items:center}
+.add{background:none;border:1px dashed var(--lime);color:var(--lime);border-radius:99px;padding:8px 14px;cursor:pointer;margin-top:14px;font-size:13px}
+#bar{position:fixed;left:50%;bottom:calc(16px + env(safe-area-inset-bottom,0px));translate:-50% 0;z-index:80;display:flex;gap:8px;background:#000c;backdrop-filter:blur(10px);border:1px solid var(--line);padding:8px;border-radius:99px;flex-wrap:wrap;justify-content:center;max-width:94vw}
+#m{position:fixed;inset:0;z-index:90;background:#000d;display:none;overflow:auto;padding:clamp(12px,4vw,48px)}#m.on{display:block}
+.mb{background:var(--bg2);border:1px solid var(--line);max-width:960px;margin:0 auto;padding:clamp(18px,3vw,36px);position:relative}.mb h3{font:400 34px/1.1 var(--serif);margin:0 0 6px}.mb p{color:var(--mute)}
+.x{position:absolute;right:14px;top:10px;background:none;border:0;font-size:28px;cursor:pointer}
+.vid{width:100%;max-height:78vh;margin:16px auto;background:#000;position:relative}.vid iframe,.vid img{position:absolute;inset:0;width:100%;height:100%;border:0;object-fit:cover}
+.gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px;margin:14px 0}.gal img{width:100%;display:block}
+.fg{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:14px 0}.fg label{display:grid;gap:4px;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--mute)}.fg .w{grid-column:1/-1}
+.fg input,.fg select,.fg textarea,.mb textarea{background:var(--bg);border:1px solid var(--line);padding:10px;border-radius:4px;text-transform:none;letter-spacing:0;font-size:15px;width:100%}.fg textarea{min-height:90px}.mb textarea{min-height:240px}
+.im{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.im img{height:56px}
+@media(max-width:820px){.card,.card.ft[data-r="16:9"]{grid-column:span 12}.card[data-r="9:16"],.card[data-r="4:5"],.card[data-r="1:1"]{grid-column:span 6}.case,.duo,.aw,.exp,.fg{grid-template-columns:1fr}.steps{grid-template-columns:repeat(5,1fr)}.step small{display:none}.step b{font-size:15px}nav .ls{gap:10px}.nm{display:none}}
+@media(prefers-reduced-motion:reduce){.grain,.glow,.mq div{animation:none}h1 span i{animation:none;transform:none}.rv{opacity:1;transform:none}html{scroll-behavior:auto}}
+</style></head><body>
+<div class="grain" aria-hidden="true"></div><div class="cu" id="cu" aria-hidden="true"></div><div id="app"></div><div id="m"></div>
+<script>
+/* ===== CONTENT MODEL: every piece of editable content lives in DEFAULT. Edit via the site's Edit mode, or change here. =====
+   To migrate to a real CMS later, replace load()/save() and keep this shape. */
+const DEFAULT={
+greeting:"Hola",                       // change to Hello / Hey / Hi
+name:"Subhash Singh",
+designation:"Senior Video Editor",     // single source: hero, page title, nav label
+headline:"Cutting global campaigns, now with AI.",
+sub:"16+ years of editing, storytelling & visual craft",
+sub2:"Editing stories for the screen, the feed and what comes next.",
+cta:"Watch showreel", showreel:"https://vimeo.com/697610255",
+nav:[{l:"Work",h:"#work"},{l:"AI",h:"#ai"},{l:"About",h:"#about"},{l:"Experience",h:"#experience"},{l:"Contact",h:"#contact"}],
+intro:"I started cutting on tape. Sixteen years later the tools have changed. The instinct has not: find where a cut needs to breathe, and where it needs to hit.",
+workTitle:"Selected work",
+projects:[
+{id:"p1",title:"ASICS Superblast: Speed in Motion",tags:["AI FILM","BRANDED CONTENT"],behance:"https://www.behance.net/gallery/255685975/ASICS-SUPERBLAST-SPEED-IN-MOTION",ai:true},
+{id:"p2",title:"Porsche 718 Cayman Concept Film",tags:["AI FILM","AUTOMOTIVE"],behance:"https://www.behance.net/gallery/255693779/Porsche-718-Cayman-Concept-Film",ai:true},
+{id:"p3",title:"My First Voice",tags:["AI","DOCUMENTARY","FILM"],behance:"https://www.behance.net/subhashbutola1",ai:true,featured:true},
+{id:"p4",title:"Booking.com ODI World Cup",client:"Booking.com",tags:["CAMPAIGN","EDITORIAL","SPORTS"]},
+{id:"p5",title:"HBO Welcome to Derry",client:"HBO",tags:["CAMPAIGN","ENTERTAINMENT"]},
+{id:"p6",title:"Google Pixel",client:"Google",tags:["CAMPAIGN","LOCALIZATION"]},
+{id:"p7",title:"Netflix Narcos India",client:"Netflix",tags:["CAMPAIGN","ENTERTAINMENT"]},
+{id:"p8",title:"Maersk Lifestyle",client:"Maersk",tags:["BRAND FILM","BRANDED CONTENT"],vimeo:"https://vimeo.com/1187016439"},
+{id:"p9",title:"SK-II Japan",client:"SK-II",tags:["FASHION","BRANDED CONTENT"]},
+{id:"p10",title:"Blenders Pride Fashion Tour",client:"Blenders Pride",tags:["FASHION","BRANDED CONTENT"],youtube:"https://www.youtube.com/watch?v=MPobbpa8yq4"},
+{id:"p11",title:"Paris Bells",sub:"With Chase Bowman",tags:["FASHION","FILM"]},
+{id:"p12",title:"OnePlus Nord 2 5G",client:"OnePlus",tags:["CAMPAIGN","DIGITAL"]},
+{id:"p13",title:"POCO: Are You Made of MAD",client:"POCO",tags:["CAMPAIGN","DIGITAL"]},
+{id:"p14",title:"Yamaha",client:"Yamaha",tags:["COMMERCIAL","BRANDED CONTENT"]},
+{id:"p15",title:"Lightwand",sub:"With Chase Bowman",tags:["FILM"]}],
+aiTitle:"From timeline to generative workflow", aiSub:"AI in the edit room, and a feed built for the phone.",
+aiCase:"My First Voice, a film about AI that clones a child's own voice tone so he can speak in his native accent, won a Webby and a D&AD Pencil. That work shaped how I use AI in every cut.",
+steps:["Concept","Image","Motion","Edit","Final"],
+aiItems:["Generative AI workflows","AI-assisted editing","AI voice technologies","Workflow automation","Content repurposing and versioning"],
+socialTitle:"Social", socialText:"One category for Reels, TikTok and Shorts. Vertical storytelling, short-form pacing, hooks, retention, platform adaptation, multi-market content and rapid versioning.",
+socialMeta:["9:16","Reels","TikTok","Shorts","Vertical","Hook","Cut","Loop","Retain"],
+about:"Sixteen years of editing across global campaigns, branded content and entertainment marketing. Story first, social-aware, at home in a modern post pipeline, and curious about what AI and creative technology can add to the cut.",
+skills:["Video Editing","Story Development","Adobe Premiere Pro","After Effects","Motion Design","Visual Effects","Brand Films","Digital & Social Content","E-commerce Content","AI Creative Workflows","AI Filmmaking","Sound Design","Localization","Content Adaptation"],
+clients:["Netflix","Google","HBO","Booking.com","Samsung","Nestlé","Maersk","SK-II","ASICS","Porsche","OnePlus","POCO","Yamaha","Blenders Pride"],
+awards:[{t:"Webby Award + D&AD Pencil",d:"My First Voice, 2026"},{t:"Best Editor Award",d:"MediaMonks, 2023"}],
+expTitle:"Experience",
+exp:[{y:"2020 to now",org:"MediaMonks India",role:"Senior Video Editor and Producer",d:"Editorial and post-production across global campaigns, AI experiences, entertainment marketing and technology launches. Mentors editors and works with motion, design and production teams."},
+{y:"2015 to 2020",org:"White Balance",role:"Senior Video Editor",d:"Commercials, branded content, automotive films and entertainment launches, including Netflix Narcos India campaign."},
+{y:"2010 to 2014",org:"Espfilms",role:"Video Editor",d:"Broadcast promos and sports storytelling, including ESPN and Star Sports work."},
+{y:"Independent",org:"Freelance",role:"",d:"Documentary, adventure and sports edits with cinematographer Chase Bowman, adventurer Rob Lilwall, and Singapore agency North West 7."}],
+contactTitle:"Let us cut something.", email:"subhashbutola4@gmail.com",
+links:[{l:"Showreel",u:"https://vimeo.com/697610255"},{l:"Vimeo",u:"https://vimeo.com/subhash1989"},{l:"Behance",u:"https://www.behance.net/subhashbutola1"},{l:"LinkedIn",u:"https://www.linkedin.com/in/subhash89"}],
+footer:"Subhash Singh. Working worldwide."};
+const ADD={skills:"New skill",clients:"New brand",aiItems:"New item",socialMeta:"New",steps:"Step",awards:{t:"Award",d:"Project, Year"},exp:{y:"Years",org:"Employer",role:"Title",d:"Description"},links:{l:"Label",u:"https://"}};
+const KEY="ss-portfolio-v1",$=s=>document.querySelector(s);
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const load=()=>{try{const s=localStorage.getItem(KEY);if(s)return{...structuredClone(DEFAULT),...JSON.parse(s)}}catch(e){}return structuredClone(DEFAULT)};
+let D=load(),edit=false,flt="ALL",first=true;
+const get=p=>p.split(".").reduce((o,k)=>o?.[k],D),set=(p,v)=>{const k=p.split("."),l=k.pop();k.reduce((o,x)=>o[x],D)[l]=v};
+const t=(p,tag="span",c="")=>`<${tag} class="${c}" data-p="${p}"${edit?' contenteditable="plaintext-only"':""}>${esc(get(p))}</${tag}>`;
+const CTL=`<span class="ctl"><span class="hd" title="Drag">⋮</span><button data-a="up" title="Move up">↑</button><button data-a="del" title="Delete">×</button></span>`;
+const W=(l,i,inner,tag="li",c="")=>`<${tag} class="${c}" data-l="${l}" data-i="${i}">${inner}${edit?CTL:""}</${tag}>`;
+const A=(l,s)=>edit?`<button class="add" data-add="${l}">+ ${s}</button>`:"";
+const hue=s=>[75,190,265,30][[...s].reduce((a,c)=>a+c.charCodeAt(0),0)%4];
+const strs=(l,tag,c,wrap)=>D[l].map((_,i)=>W(l,i,t(`${l}.${i}`),tag,c)).join("");
+const hl=s=>{const k=s.lastIndexOf(", ");return k<0?esc(s):esc(s.slice(0,k+2))+"<em>"+esc(s.slice(k+2))+"</em>"};
+const tags=()=>{const s=new Set();D.projects.forEach(p=>(p.tags||[]).forEach(x=>s.add(x)));return["ALL",...s]};
+const match=p=>flt==="ALL"||(p.tags||[]).includes(flt);
+const card=(p,i)=>`<article class="card rv${p.featured?" ft":""}" data-l="projects" data-i="${i}" data-r="${p.ratio||"16:9"}" data-cur="${emb(p)?"Play":"View"}" data-open="${i}"${match(p)?"":" hidden"}><div class="fig" style="--h:${hue(p.title)};aspect-ratio:${(p.ratio||"16:9").replace(":","/")}">${p.thumb?`<img src="${p.thumb}" alt="${esc(p.title)}" loading="lazy">`:`<div class="ph"><b>${esc(p.title)}</b><small>${esc(p.client||p.sub||"")}</small></div>`}</div><div class="meta"><h3>${esc(p.title)}</h3><div class="tg">${(p.tags||[]).map(x=>`<i>${esc(x)}</i>`).join("")}</div></div>${edit?CTL:""}</article>`;
+function emb(p){let m=(p.vimeo||"").match(/vimeo\.com\/(\d+)/);if(m)return"https://player.vimeo.com/video/"+m[1];m=(p.youtube||"").match(/[?&]v=([\w-]+)|youtu\.be\/([\w-]+)/);return m?"https://www.youtube.com/embed/"+(m[1]||m[2]):(p.url||"").match(/\.(mp4|webm)$/)?p.url:""}
+function render(){
+document.title=`${D.name} | ${D.designation}`;
+const nm=edit?t("name","h1"):`<h1 aria-label="${esc(D.name)}">${D.name.split(" ").map(w=>`<span><i>${esc(w)}</i></span>`).join("")}</h1>`;
+$("#app").className=(edit?"ed ":"")+(first?"":"noanim");first=false;
+$("#app").innerHTML=`
+<nav><a href="#top" class="nm">${esc(D.name)}</a><div class="ls">${D.nav.map((n,i)=>`<a href="${n.h}">${t(`nav.${i}.l`)}</a>`).join("")}</div></nav>
+<header class="hero" id="top"><div class="glow"></div><div class="stage">
+<div class="hola">${t("greeting")}<u>.</u></div>${nm}
+<div class="role">${t("designation")}</div><p class="hl">${edit?t("headline"):hl(D.headline)}</p></div>
+<div class="base"><div class="s"><b>${t("sub")}</b><span>${t("sub2")}</span></div>
+<div class="tc"><span id="tc" aria-hidden="true">00:00:00:00</span><a class="pill pri" href="${esc(D.showreel)}" target="_blank" rel="noopener" data-cur="Play">${t("cta")}</a>${edit?`<span>URL: ${t("showreel")}</span>`:""}</div></div></header>
+<section><div class="wrap"><p class="lede rv">${edit?t("intro"):esc(D.intro).replace(/(The instinct has not.*)$/,"<em>$1</em>")}</p></div></section>
+<section id="work"><div class="wrap"><div class="head"><h2>${t("workTitle")}</h2><div class="fl" role="group" aria-label="Filter work">${tags().map(x=>`<button class="pill" data-f="${esc(x)}" aria-pressed="${x===flt}">${esc(x)}</button>`).join("")}</div></div>
+<div class="grid">${D.projects.map(card).join("")}</div>${A("projects","Add project")}</div></section>
+<section id="ai"><div class="wrap"><div class="lab rv">${t("aiTitle")}</div><h2 class="rv" style="margin:18px 0 0;max-width:16ch">${t("aiSub")}</h2>
+<div class="steps rv">${D.steps.map((s,i)=>W("steps",i,`<small>0${i+1}</small><b>${t(`steps.${i}`)}</b>`,"div","step")).join("")}</div>${A("steps","Step")}
+<div class="case rv"><p>${t("aiCase")}</p><ul class="lst">${strs("aiItems","li")}${A("aiItems","Item")}</ul></div>
+<div class="meta9 rv">${D.socialMeta.map((_,i)=>W("socialMeta",i,t(`socialMeta.${i}`),"span")).join("")}${A("socialMeta","Tag")}</div>
+<div class="case rv"><h2 style="font-size:clamp(32px,5vw,72px)">${t("socialTitle")}</h2><p>${t("socialText")}</p></div></div></section>
+<section id="about"><div class="wrap duo"><div class="rv"><div class="lab">About</div><p class="lede" style="font-size:clamp(24px,3vw,40px);margin-top:18px">${t("about")}</p></div>
+<div class="blk rv"><h3>Skills</h3><div class="chips">${strs("skills","span")}</div>${A("skills","Skill")}</div></div></section>
+<section id="experience"><div class="wrap"><div class="head"><h2>${t("expTitle")}</h2></div>
+${D.exp.map((e,i)=>W("exp",i,`<div class="y">${t(`exp.${i}.y`)}</div><div><h3>${t(`exp.${i}.org`)}</h3><div class="r">${t(`exp.${i}.role`)}</div><p>${t(`exp.${i}.d`)}</p></div>`,"div","exp rv")).join("")}${A("exp","Experience")}
+<div class="aw" style="margin-top:48px">${D.awards.map((a,i)=>W("awards",i,`<b>${t(`awards.${i}.t`)}</b><span>${t(`awards.${i}.d`)}</span>`,"div","award rv")).join("")}</div>${A("awards","Award")}
+<div class="lab" style="margin:64px 0 16px">Brands</div><div class="mq"><div>${(edit?D.clients:[...D.clients,...D.clients]).map((c,i)=>edit?W("clients",i,t(`clients.${i}`),"span"):`<span>${esc(c)}</span>`).join("")}</div></div>${A("clients","Brand")}</div></section>
+<section id="contact"><div class="wrap"><div class="head"><h2>${t("contactTitle")}</h2></div>
+<a class="big" href="mailto:${esc(D.email)}" data-cur="Open">${t("email")}</a>
+<div class="ln">${D.links.map((l,i)=>W("links",i,`<a class="pill" href="${esc(l.u)}" target="_blank" rel="noopener">${t(`links.${i}.l`)}</a>${edit?`<small>${t(`links.${i}.u`)}</small>`:""}`,"span","").replace('<span class=""','<span style="position:relative;display:inline-flex;gap:8px;align-items:center"')).join("")}${A("links","Link")}</div></div></section>
+<footer><span>${t("footer")}</span>${edit?"":`<button data-a="edit">Edit</button>`}</footer>
+${edit?`<div id="bar"><button class="pill pri" data-a="save">Save</button><button class="pill" data-a="cancel">Cancel</button><button class="pill" data-a="export">Export</button><button class="pill" data-a="import">Import</button></div>`:""}`;
+io();}
+const io0=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");io0.unobserve(e.target)}}),{threshold:.08});
+const io=()=>document.querySelectorAll(".rv").forEach(e=>io0.observe(e));
+/* ---- modal helpers ---- */
+const openM=h=>{$("#m").innerHTML=`<div class="mb"><button class="x" data-a="close" aria-label="Close">×</button>${h}</div>`;$("#m").classList.add("on")},closeM=()=>$("#m").classList.remove("on");
+const ask=msg=>new Promise(r=>{openM(`<h3>Delete?</h3><p>${esc(msg)}</p><button class="pill" data-a="no">Cancel</button> <button class="pill pri" data-a="yes">Delete</button>`);window._r=r});
+function showP(i){const p=D.projects[i],e=emb(p),r=(p.ratio||"16:9").replace(":","/"),L=[["Vimeo",p.vimeo],["YouTube",p.youtube],["Behance",p.behance],["Link",p.url]].filter(x=>x[1]);
+const fb=D.links.find(l=>l.l==="Vimeo");
+openM(`<div class="tg" style="margin-bottom:10px">${(p.tags||[]).map(x=>`<i>${esc(x)}</i>`).join("")}</div><h3>${esc(p.title)}</h3><p>${esc([p.sub,p.client,p.year].filter(Boolean).join(" · "))}</p>
+${e?`<div class="vid" style="aspect-ratio:${r}"><iframe src="${e}" allow="autoplay;fullscreen;picture-in-picture" allowfullscreen title="${esc(p.title)}"></iframe></div>`:p.hero||p.thumb?`<div class="vid" style="aspect-ratio:${r}"><img src="${p.hero||p.thumb}" alt=""></div>`:""}
+${p.desc?`<p>${esc(p.desc)}</p>`:""}<div class="gal">${(p.gallery||[]).map(g=>`<img src="${g}" alt="">`).join("")}</div>
+<div class="ln" style="margin-top:12px">${L.map(x=>`<a class="pill" href="${esc(x[1])}" target="_blank" rel="noopener">${x[0]} ↗</a>`).join("")}${!L.length&&fb?`<a class="pill" href="${esc(fb.u)}" target="_blank" rel="noopener">More on Vimeo ↗</a>`:""}</div>`)}
+let tmp;
+function form(i){const n=i<0;tmp=n?{id:"p"+Date.now(),tags:[],gallery:[],ratio:"16:9"}:structuredClone(D.projects[i]);tmp.gallery||=[];tmp._i=i;
+const f=(k,l,w)=>`<label class="${w||""}">${l}<input data-k="${k}" value="${esc(tmp[k]||"")}"></label>`;
+openM(`<h3>${n?"Add":"Edit"} project</h3><div class="fg">${f("title","Title")}${f("sub","Subtitle")}${f("client","Client / brand")}${f("year","Year")}
+<label class="w">Tags (comma separated)<input data-k="tags" value="${esc((tmp.tags||[]).join(", "))}"></label>
+<label>Aspect ratio<select data-k="ratio">${["16:9","9:16","4:5","1:1"].map(r=>`<option${r===tmp.ratio?" selected":""}>${r}</option>`).join("")}</select></label>
+<label>Options<span><input type="checkbox" data-k="featured"${tmp.featured?" checked":""} style="width:auto"> Featured &nbsp; <input type="checkbox" data-k="ai"${tmp.ai?" checked":""} style="width:auto"> AI project</span></label>
+<label class="w">Description<textarea data-k="desc">${esc(tmp.desc||"")}</textarea></label>${f("vimeo","Vimeo URL")}${f("youtube","YouTube URL")}${f("behance","Behance URL")}${f("url","External / video URL")}
+<div class="w" id="imgs"></div></div>
+<button class="pill pri" data-a="psave">Save project</button> ${n?"":`<button class="pill" data-a="pdel">Delete</button>`} <button class="pill" data-a="close">Cancel</button>`);imgs()}
+function imgs(){$("#imgs").innerHTML=["thumb","hero"].map(k=>`<div class="lab" style="margin:10px 0 6px">${k==="thumb"?"Thumbnail":"Hero image"}</div><div class="im">${tmp[k]?`<img src="${tmp[k]}" alt=""><button class="pill" data-a="rm" data-k="${k}">Remove</button>`:""}<input type="file" accept="image/*" data-img="${k}"></div>`).join("")+`<div class="lab" style="margin:10px 0 6px">Gallery</div><div class="im">${tmp.gallery.map((g,j)=>`<span><img src="${g}" alt=""><button class="pill" data-a="rm" data-k="gallery" data-j="${j}">×</button></span>`).join("")}<input type="file" accept="image/*" multiple data-img="gallery"></div>`}
+const shrink=f=>new Promise(r=>{const fr=new FileReader;fr.onload=()=>{const i=new Image;i.onload=()=>{const s=Math.min(1,1400/Math.max(i.width,i.height)),c=document.createElement("canvas");c.width=i.width*s;c.height=i.height*s;c.getContext("2d").drawImage(i,0,0,c.width,c.height);r(c.toDataURL("image/jpeg",.8))};i.src=fr.result};fr.readAsDataURL(f)});
+document.addEventListener("change",async e=>{const k=e.target.dataset.img;if(!k)return;for(const f of e.target.files){const d=await shrink(f);k==="gallery"?tmp.gallery.push(d):tmp[k]=d}imgs()});
+document.addEventListener("input",e=>{const p=e.target.dataset?.p;if(p)set(p,e.target.textContent)});
+/* ---- drag reorder (via handle) ---- */
+let dr;document.addEventListener("pointerdown",e=>{const h=e.target.closest(".hd");if(h)h.closest("[data-l]").draggable=true});
+document.addEventListener("dragstart",e=>{const h=e.target.closest?.("[data-l]");if(h)dr=h;else e.preventDefault()});
+document.addEventListener("dragend",()=>document.querySelectorAll("[data-l]").forEach(x=>x.draggable=false));
+document.addEventListener("dragover",e=>{const h=e.target.closest("[data-l]");if(dr&&h&&h.dataset.l===dr.dataset.l)e.preventDefault()});
+document.addEventListener("drop",e=>{const h=e.target.closest("[data-l]");if(!dr||!h||h.dataset.l!==dr.dataset.l)return;e.preventDefault();const a=get(h.dataset.l),[x]=a.splice(+dr.dataset.i,1);a.splice(+h.dataset.i,0,x);dr=null;render()});
+document.addEventListener("click",async e=>{
+const b=e.target.closest("[data-a],[data-add],[data-open],[data-f],a");if(!b)return;
+if(b.tagName==="A"&&edit&&!e.target.closest("#m")){e.preventDefault();return}
+if(b.dataset.f!==undefined){flt=b.dataset.f;render();return}
+if(b.dataset.add){b.dataset.add==="projects"?form(-1):(get(b.dataset.add).push(structuredClone(ADD[b.dataset.add])),render());return}
+const a=b.dataset.a,h=b.closest("[data-l]");
+if(a==="up"||a==="del"){const arr=get(h.dataset.l),i=+h.dataset.i;if(a==="up"&&i>0){[arr[i-1],arr[i]]=[arr[i],arr[i-1]];render()}
+if(a==="del"&&await ask("This cannot be undone until you press Cancel. Delete this item?")){arr.splice(i,1);closeM();render()}else if(a==="del")closeM();return}
+if(b.dataset.open!==undefined){edit?form(+b.dataset.open):showP(+b.dataset.open);return}
+if(a==="close")closeM();
+if(a==="yes"){window._r(true)}if(a==="no"){window._r(false)}
+if(a==="edit"){edit=true;render()}
+if(a==="cancel"){D=load();edit=false;render()}
+if(a==="save"){try{localStorage.setItem(KEY,JSON.stringify(D));edit=false;render()}catch(x){openM("<h3>Not saved</h3><p>Browser storage is full or blocked. Remove large images, or use Export to keep a copy.</p>")}}
+if(a==="export")openM(`<h3>Export</h3><p>Copy this JSON. It is the full content of the site.</p><textarea readonly>${esc(JSON.stringify(D,null,1))}</textarea>`);
+if(a==="import"){openM(`<h3>Import</h3><p>Paste exported JSON, then apply. Press Save afterwards to keep it.</p><textarea id="imp"></textarea><br><button class="pill pri" data-a="apply">Apply</button>`)}
+if(a==="apply"){try{D={...structuredClone(DEFAULT),...JSON.parse($("#imp").value)};closeM();render()}catch(x){alert("Invalid JSON")}}
+if(a==="rm"){b.dataset.k==="gallery"?tmp.gallery.splice(+b.dataset.j,1):tmp[b.dataset.k]="";imgs()}
+if(a==="psave"){const m=$("#m");m.querySelectorAll("[data-k]").forEach(x=>{if(!x.closest("#imgs")&&x.dataset.k){const k=x.dataset.k;tmp[k]=x.type==="checkbox"?x.checked:k==="tags"?x.value.split(",").map(s=>s.trim().toUpperCase()).filter(Boolean):x.value.trim()}});
+if(!tmp.title){alert("Title is required");return}const i=tmp._i;delete tmp._i;i<0?D.projects.push(tmp):D.projects[i]=tmp;closeM();render()}
+if(a==="pdel"){const i=tmp._i;if(await ask(`Delete "${D.projects[i].title}"?`)){D.projects.splice(i,1);closeM();render()}else form(i)}
+});
+addEventListener("keydown",e=>{if(e.key==="Escape")closeM()});
+/* ---- cursor, parallax, timecode ---- */
+const cu=$("#cu");addEventListener("mousemove",e=>{cu.style.transform=`translate(${e.clientX}px,${e.clientY}px)`;const c=e.target.closest?.("[data-cur]");cu.dataset.s=c?"1":"";cu.textContent=c?c.dataset.cur:""});
+addEventListener("scroll",()=>{const g=$(".glow");if(g)g.style.marginTop=Math.min(scrollY,900)*.2+"px"},{passive:true});
+const p2=n=>String(n).padStart(2,"0");let fr=0;
+if(!matchMedia("(prefers-reduced-motion:reduce)").matches)setInterval(()=>{fr++;const e=$("#tc");if(e)e.textContent=`${p2(Math.floor(fr/86400)%100)}:${p2(Math.floor(fr/3600)%60)}:${p2(Math.floor(fr/24)%60)}:${p2(fr%24)}`},41);
+render();
+</script></body></html>
